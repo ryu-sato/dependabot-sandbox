@@ -1,2 +1,2 @@
 # dependabot-sandbox
-dependabot-sandbox
+dependabot の砂場
