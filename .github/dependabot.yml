@@ -29,6 +29,9 @@ updates:
       exclude-patterns:
       - "gc_ruboconfig"
       - "gocardless-*"
+    all:
+      patterns:
+      - "*"
 - package-ecosystem: "npm"
   directory: "/"
   schedule:
@@ -47,3 +50,6 @@ updates:
       update-types:
       - "minor"
       - "patch"
+    all:
+      patterns:
+      - "*"
