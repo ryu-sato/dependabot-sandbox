@@ -39,12 +39,11 @@ updates:
   - "dependencies"
   allow:
   - dependency-type: all
-  # https://docs.github.com/ja/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file#%E4%BE%8B-3
+  # cf. https://docs.github.com/ja/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file#%E4%BE%8B-3
   groups:
-    angular:
+    remix:
       patterns:
-      - "@angular*"
+      - "@remix*"
       update-types:
       - "minor"
       - "patch"
-
